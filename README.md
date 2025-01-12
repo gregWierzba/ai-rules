@@ -28,13 +28,20 @@ The project maintains key documentation files for AI development:
 
 ## Usage
 
-The framework guides AI development through:
+Add RULESET.md to your boilerplate project
 
-1. Comprehensive documentation review
-2. Functional programming patterns for AI systems
-3. Thorough testing of AI components
-4. Performance optimization for AI models
-5. Regular updates to AI development documentation
+Use pre-prompt (or add to system prompt)
+```
+Study the set of rules in the file RULESET.md carefully.
+Follow them exactly.
+```
+
+Ask AI to prepare documentation
+```
+Project is:
+...
+PREPARE PROJECT DOCUMENTATION ONLY
+```
 
 ## License
 
