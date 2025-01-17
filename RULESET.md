@@ -2,6 +2,8 @@
 - IMPORTANT: Carefully review documentation files in documentation/ directory
 - Thoroughly examine existing files and directory structure
 - Clarify any uncertainties or missing information before starting - ask me a questions, do not make assumptions
+- After updating currentTasks.md, create commit with proper message.
+- Always create git branch for feature
 
 # Coding Principles
 - Use functional and declarative programming patterns; avoid classes
@@ -102,4 +104,3 @@ currentTasks.md
     - When a task is blocked, add a '[b]' in front of the task.
     - When a task is in progress, add a '[p]' in front of the task.
     - When a task is not started, add a '[ ]' in front of the task.
-    After updating currentTasks.md, create commit with proper message.
