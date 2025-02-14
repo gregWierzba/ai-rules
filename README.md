@@ -1,52 +1,86 @@
-# AI Rules Project
+# Useful Prompts Project
 
-A comprehensive framework for managing and enforcing AI development rules and guidelines.
+## Overview & Mission Statement
 
-## Description
+Useful Prompts is a framework for creating and managing high-quality, engineered prompts that enhance developer productivity through AI assistance in software development workflows.
 
-This project provides a structured ruleset for artificial intelligence systems, helping to ensure responsible and effective AI development and deployment. It maintains clear documentation and guidelines through a systematic approach, covering:
+## Core Benefits
 
-- AI development best practices and principles
-- Testing and quality assurance for AI systems
-- Performance optimization for AI models
-- Security considerations in AI deployment
-- Documentation standards for AI projects
-- AI development workflow management
+- **Enhanced Productivity**: Optimized prompts that generate more accurate and useful AI responses
+- **Consistent Quality**: Standardized approach to AI interactions across development tasks
+- **Best Practices**: Built-in guardrails for responsible and effective AI usage
 
-## Project Structure
+## Directory Structure
 
-The project maintains key documentation files for AI development:
+The project is organized into specialized scenarios, each with its own set of prompts and guidelines:
 
-- `productContext.md` - AI product strategy and use cases
-- `activeContext.md` - Current AI development focus
-- `systemPatterns.md` - AI architecture patterns
-- `developmentWorkflow.md` - AI project standards
-- `operationalContext.md` - AI system operations
-- `projectBoundaries.md` - AI technical constraints
-- `techContext.md` - AI technology stack
-- `currentTasks.md` - AI development task tracking
+### /code-review
 
-## Usage
+- **Purpose**: Facilitates comprehensive technical code reviews
+- **Contents**:
+  - `PROMPT.md`: Detailed prompt structure for code reviews
+  - `README.md`: Usage guidelines and examples
 
-Add RULESET.md to your boilerplate project
+### /coding
 
-Use pre-prompt (or add to system prompt)
-```
-Study the set of rules in the file RULESET.md carefully.
-Follow them exactly.
-```
+- **Purpose**: Provides development workflow and coding standards
+- **Contents**:
+  - `coding-ruleset.md`: Core development principles and documentation standards
+  - `README.md`: Implementation guidelines and usage instructions
 
-Ask AI to prepare documentation
-```
-Project is:
-...
-PREPARE PROJECT DOCUMENTATION ONLY
-```
+## Prompt Engineering Techniques
+
+The project employs several advanced prompt engineering principles:
+
+1. **Role Definition**
+
+   - Clear expertise specification
+   - Detailed scope of responsibilities
+   - Context-specific knowledge requirements
+
+2. **Input Validation**
+
+   - Required information verification
+   - Pre-execution checks
+   - Context validation
+
+3. **Output Structuring**
+
+   - Standardized response formats
+   - Clear success criteria
+   - Actionable recommendations
+
+4. **Context Management**
+   - Systematic documentation approach
+   - Clear state tracking
+   - Progress monitoring
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Implement changes following project guidelines
+4. Submit a pull request with detailed description
+
+## Known Limitations
+
+- May need periodic prompt refinement
+- Dependent on AI model capabilities
+
+## Future Development
+
+1. **Short-term Goals**
+
+   - Expand scenario coverage
+   - Enhance prompt optimization
+   - Improve documentation templates
+
+2. **Long-term Vision**
+   - Integration with CI/CD pipelines
+   - Automated prompt testing
+   - Performance analytics
+   - Advanced context management
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
